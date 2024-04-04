@@ -1,0 +1,10 @@
+^D:\PROYECTOSFLUTTER\CLASE2V2\FLUTTER_APPLICATION_1\WINDOWS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/ProyectosFlutter/Clase2v2/flutter_application_1/windows -BD:/ProyectosFlutter/Clase2v2/flutter_application_1/build/windows/x64 --check-stamp-file D:/ProyectosFlutter/Clase2v2/flutter_application_1/build/windows/x64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

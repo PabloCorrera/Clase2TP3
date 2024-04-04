@@ -1,0 +1,28 @@
+^D:\PROYECTOSFLUTTER\CLASE2V2\FLUTTER_APPLICATION_1\BUILD\WINDOWS\X64\CMAKEFILES\C046A806C03CCC1795557F025D221C3B\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\AndroidSDK\flutter PROJECT_DIR=D:\ProyectosFlutter\Clase2v2\flutter_application_1 FLUTTER_ROOT=D:\AndroidSDK\flutter FLUTTER_EPHEMERAL_DIR=D:\ProyectosFlutter\Clase2v2\flutter_application_1\windows\flutter\ephemeral PROJECT_DIR=D:\ProyectosFlutter\Clase2v2\flutter_application_1 FLUTTER_TARGET=D:\ProyectosFlutter\Clase2v2\flutter_application_1\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC8yZTRiYTljNmZiNDk5Y2NkNGU4MTQyMDU0Mzc4M2NjNzI2N2FlNDA2Lw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\ProyectosFlutter\Clase2v2\flutter_application_1\.dart_tool\package_config.json D:/AndroidSDK/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROYECTOSFLUTTER\CLASE2V2\FLUTTER_APPLICATION_1\BUILD\WINDOWS\X64\CMAKEFILES\88A31A989085F66A015CADE879475455\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROYECTOSFLUTTER\CLASE2V2\FLUTTER_APPLICATION_1\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/ProyectosFlutter/Clase2v2/flutter_application_1/windows -BD:/ProyectosFlutter/Clase2v2/flutter_application_1/build/windows/x64 --check-stamp-file D:/ProyectosFlutter/Clase2v2/flutter_application_1/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
